@@ -1,0 +1,16 @@
+\input tugboat.def\input path.sty\hyphenation{ Jac-kow-ski Lud-wi-chow-ski
+  Mik-la-vec Reut-en-auer }\ifx \undefined \booktitle \def \booktitle #1{{{\em
+  #1}}} \fi
+\begin{thebibliography}{1}
+
+\bibitem{Hoekwater:TB28-3-312}
+Taco Hoekwater.
+\newblock {\LuaTeX}.
+\newblock {\em TUGboat}, 28(3):312--313, 2007.
+
+\bibitem{Knuth:TB5-1-67}
+Don Knuth.
+\newblock Comments on quality in publishing.
+\newblock {\em TUGboat}, 5(1):67--67, May 1984.
+
+\end{thebibliography}
