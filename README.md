@@ -1,4 +1,4 @@
 ## Build Status
-![Build Badge](https://img.shields.io/static/v1?label=Last%20Built&message=%20&color=blue&style=flat&query=lastBuild&url=https://raw.githubusercontent.com/dmackinnon1/Accessible-LaTeX-Example/main/status.json)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdmackinnon1%2FAccessible-LaTeX-Example%2Fmain%2Fstatus.json&query=lastBuild&style=flat-square&label=Last%20Built&labelColor=blue&color=black)
 
 [Download the Latest PDF](main.pdf)
