@@ -1,8 +1,0 @@
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {section}{\numberline {2}Document structures}{1}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Mathematics}{1}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Lists}{1}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Figures and Tables}{2}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Theorems}{2}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Verbatim}{2}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Citations}{2}{section.3}%
