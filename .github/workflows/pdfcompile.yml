@@ -24,6 +24,7 @@ jobs:
           echo "{\"lastBuild\": \"${TIMESTAMP}\"}" > status.json
       - name: adding new pdfs
         run: |
-          git add .
+          git add main.pdf
+          git add status.json
           git commit -m 'adding new pdfs, github action'
           git push
