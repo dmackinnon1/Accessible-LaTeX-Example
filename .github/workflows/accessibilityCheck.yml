@@ -24,7 +24,7 @@ jobs:
           
           # 2. Run the container
           docker run --rm -v "${PWD}:/app" -w /app verapdf/cli:latest \
-          --flavour ua1 \
+          --flavour ua2 \
           --format html \
           main.pdf > report.html || true
 
