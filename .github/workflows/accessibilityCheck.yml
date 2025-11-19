@@ -18,16 +18,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run veraPDF Accessibility Check
-        uses: docker://verapdf/verapdf:latest
-        with:
-          # veraPDF CLI arguments:
-          # --flavour ua1: Checks against PDF/UA-1 
-          # --format html: Produces a human-readable HTML report
-          args: >-
-            --flavour ua1
-            --format html
-            --destination report.html
-            main.pdf
+        run: |
+          # 1. Pull the official image
+          docker pull verapdf/cli:latest
+          
+          # 2. Run the container
+          docker run --rm -v "${PWD}:/app" -w /app verapdf/cli:latest \
+          --flavour ua1 \
+          --format html \
+          main.pdf > report.html
 
       - name: Commit and Push Report
         run: |
