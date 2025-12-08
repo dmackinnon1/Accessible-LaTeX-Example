@@ -1,3 +1,15 @@
+# Accessible-LaTeX-Example
+
+The LaTeX source code for the manuscript makes use of the latest PDF tagging support available in Tex Live 2025. Please see the LaTeX team's tagging instructions for more information.
+
+## Overleaf requirements
+
+To make use of the tagging support now available in LaTeX, you need to make sure that the [TeX Live version and compiler](https://docs.overleaf.com/getting-started/recompiling-your-project/selecting-a-tex-live-version-and-latex-compiler) of your project are set properly.
+
+- With 2025 TeX Live, \LaTeX{} can now produce tagged PDFs automatically -- a key requirement for accessibility. Additional accessibility features are being added on an ongoing basis to the TeX Live builds. Currently, [new projects created in Overleaf](https://www.overleaf.com/blog/tex-live-2025-is-now-available) use the 2025 TeX Live tested release, and for those who need even more recent releases, a rolling updated version of TeX Live is available through the [Overleaf Labs](https://www.overleaf.com/labs/participate) program. For most requirements, the standard 2025 TeX Live image should be sufficient, but for those who wish to use the most recent features provided by the LaTeX team, the rolling version provided by Overleaf Labs may be required.
+
+- The settings in this document require that the compiler used for this project needs to be explicitly set to **LuaLaTeX** in Overleaf.
+
 ## GitHub workflows
 This project includes some GitHub workflow definitions that can be used to run an accessibility test against the generated PDF.
 
