@@ -37,8 +37,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # Add the report
-          git add a11y-report.json
-          git add a11y-statement.txt
+          git add ./output/a11y-report.json
+          git add ./output/a11y-statement.txt
           git add ./build-info/a11y-build-info.json
           git commit -m "Update PDF accessibility report"
           git push
