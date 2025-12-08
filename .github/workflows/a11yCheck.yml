@@ -2,10 +2,6 @@ name: Check PDF Accessibility (veraPDF)
 
 on:
   workflow_dispatch:
-  # Trigger when the PDF changes
-#  push:
-#    paths:
-#      - '**.pdf'
 
 permissions:
   contents: write
@@ -25,21 +21,24 @@ jobs:
           # 2. Run the container
           docker run --rm -v "${PWD}:/app" -w /app verapdf/cli:latest \
           --flavour ua2 \
-          --format html \
-          main.pdf > report.html || true
+          --format json \
+          ./output/main.pdf > ./output/a11y-report.json || true
 
+           docker run --rm -v "${PWD}:/app" -w /app verapdf/cli:latest \
+          --flavour ua2 \
+          --format text \
+          ./output/main.pdf > ./output/a11y-statement.txt || true
+      - name: Write Build Status
+        run: |
+          TIMESTAMP=$(date --utc +'%Y-%m-%dT%H:%M:%SZ')
+          echo "{\"lastBuild\": \"${TIMESTAMP}\"}" > ./build-info/a11y-build-info.json
       - name: Commit and Push Report
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
           # Add the report
-          git add report.html
-          
-          # Commit only if the report changed (i.e., errors appeared or were fixed)
-          if ! git diff --quiet --cached; then
-            git commit -m "Chore: Update PDF accessibility report"
-            git push
-          else
-            echo "No changes to report."
-          fi
+          git add a11y-report.json
+          git add a11y-statement.txt
+          git add ./build-info/a11y-build-info.json
+          git commit -m "Update PDF accessibility report"
+          git push
