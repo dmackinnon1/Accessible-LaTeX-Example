@@ -1,6 +1,8 @@
 # Accessible-LaTeX-Example
 
-The LaTeX source code for the manuscript makes use of the latest PDF tagging support available in Tex Live 2025. Please see the LaTeX team's tagging instructions for more information.
+This project provides a simple example of a LaTeX project (available on GitHub at [Accessible-LaTeX-Example](https://github.com/dmackinnon1/Accessible-LaTeX-Example)) that uses the [PDF tagging support](https://latex3.github.io/tagging-project/) made available by the [LaTeX team](https://www.latex-project.org/) in TeX Live 2025.
+
+Please see the LaTeX team's tagging instructions for more information about how add PDF tagging to LaTeX projects: [https://latex3.github.io/tagging-project/)](https://latex3.github.io/tagging-project/).
 
 ## Overleaf requirements
 
