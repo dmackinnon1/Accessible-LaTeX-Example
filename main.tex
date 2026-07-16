@@ -15,6 +15,12 @@
 \usepackage{parskip}
 \usepackage{url}
 \usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+\hypersetup{
+    pdftitle={Accessible LaTeX example}, % Satisfies the mandatory dc:title requirement
+    pdfauthor={Overleaf Support},          % Optional, but good practice
+    pdfdisplaydoctitle=true         % Crucial: instructs the PDF viewer to display the title instead of the filename
+}
 
 \title{Accessible LaTeX example}
 \author{Overleaf Support}
@@ -41,6 +47,7 @@ With 2025 TeX Live, \LaTeX{} can now produce tagged PDFs automatically -- a key 
 A key requirement for setting up the tagging support is to include the \texttt{DocumentMetadata} prior to the \verb|\documentclass| declaration. Please see the \LaTeX{} team's \href{https://latex3.github.io/tagging-project/documentation/usage-instructions}{tagging usage instructions} for details.
 
 \begin{figure}
+\begingroup
 \begin{verbatim}
 \DocumentMetadata{
   lang        = en,
@@ -51,6 +58,7 @@ A key requirement for setting up the tagging support is to include the \texttt{D
 }    
 \end{verbatim}
 \caption[The DocumentMetadata used in this document]{The \texttt{DocumentMetada} used in this document}
+\endgroup
 \end{figure}
 
 \section{Tagging special structures}
@@ -68,6 +76,8 @@ For figures, you can use the \texttt{alt} optional parameter to the \verb|\inclu
 \caption{This image has some alt text}
 \label{fig:frog}
 \end{figure}
+\setkeys{Gin}{alt={}} % <--- This resets the alt text for all following images
+
 
 \subsection{Tagging tables}
 
