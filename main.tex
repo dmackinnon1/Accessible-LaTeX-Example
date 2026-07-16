@@ -2,15 +2,19 @@
 \DocumentMetadata{
   lang        = en,
   pdfstandard = ua-2,
-  pdfstandard = a-4, 
   tagging=on,
-  tagging-setup={math/setup=mathml-SE} 
+  check-tagging-status=listfiles,
+  tagging-setup={
+      math/setup=mathml-SE,
+      extra-modules={verbatim-mo},
+      table/header-rows=1
+  } 
 }
 \documentclass[12pt]{article}
 
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 \usepackage{amsmath}
-\usepackage{unicode-math}
+\usepackage{lua-unicode-math}
 \usepackage{graphicx}
 \usepackage{parskip}
 \usepackage{url}
@@ -70,7 +74,7 @@ The automatic tagging provided now in \LaTeX{} doesn't guarantee accessibility. 
 For figures, you can use the \texttt{alt} optional parameter to the \verb|\includegraphics| command that is provided with the \texttt{graphicx} package.
 
 
-\begin{figure}[!htb]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=0.25\linewidth,alt={image of a frog facing  towards the reader}]{frog.pdf}
 \caption{This image has some alt text}
