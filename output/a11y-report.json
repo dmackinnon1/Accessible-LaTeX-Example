@@ -1,23 +1,23 @@
 {"report":{"buildInformation":{"releaseDetails":[{
   "id" : "core",
-  "version" : "1.28.2",
-  "buildDate" : 1752595620000
+  "version" : "1.30.2",
+  "buildDate" : 1780483380000
 },{
   "id" : "validation-model",
-  "version" : "1.28.2",
-  "buildDate" : 1752595920000
+  "version" : "1.30.2",
+  "buildDate" : 1780483560000
 },{
-  "id" : "gui",
-  "version" : "1.28.2",
-  "buildDate" : 1752598740000
+  "id" : "apps",
+  "version" : "1.30.2",
+  "buildDate" : 1780484100000
 }]},"jobs":[{"itemDetails":{
   "name" : "/app/./output/main.pdf",
   "size" : 190012
 },"validationResult":[ {
   "details" : {
-    "passedRules" : 1723,
+    "passedRules" : 1727,
     "failedRules" : 0,
-    "passedChecks" : 15996,
+    "passedChecks" : 15889,
     "failedChecks" : 0,
     "ruleSummaries" : [ ]
   },
@@ -26,16 +26,16 @@
   "statement" : "PDF file is compliant with Validation Profile requirements.",
   "compliant" : true
 } ],"processingTime":{
-  "start" : 1765209592935,
-  "finish" : 1765209593813,
-  "duration" : "00:00:00.878",
-  "difference" : 878
+  "start" : 1784230279017,
+  "finish" : 1784230280118,
+  "duration" : "00:00:01.101",
+  "difference" : 1101
 }}],"batchSummary":{
   "duration" : {
-    "start" : 1765209592837,
-    "finish" : 1765209593835,
-    "duration" : "00:00:00.998",
-    "difference" : 998
+    "start" : 1784230278898,
+    "finish" : 1784230280144,
+    "duration" : "00:00:01.246",
+    "difference" : 1246
   },
   "totalJobs" : 1,
   "outOfMemory" : 0,
