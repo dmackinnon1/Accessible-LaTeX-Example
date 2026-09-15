@@ -1,3 +1,5 @@
+updated July 28
+
 # Accessible-LaTeX-Example
 
 This project provides a simple example of a LaTeX project (available on GitHub at [Accessible-LaTeX-Example](https://github.com/dmackinnon1/Accessible-LaTeX-Example)) that uses the [PDF tagging support](https://latex3.github.io/tagging-project/) made available by the [LaTeX team](https://www.latex-project.org/) in TeX Live 2025.
