@@ -1,0 +1,63 @@
+name: Extract PDF Tags
+
+on:
+  # Manual trigger as requested
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract_tags:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ----------------------------------------------------------------
+      # STEP 1: Install Minimal Dependencies
+      # ----------------------------------------------------------------
+      - name: Install TeX Live Binaries
+        run: |
+          sudo apt-get update
+          # This installs luatex and other core binaries without the massive package trees
+          sudo apt-get install -y texlive-binaries
+
+      # ----------------------------------------------------------------
+      # STEP 2: Fetch the Utility
+      # ----------------------------------------------------------------
+      - name: Download show-pdf-tags
+        run: |
+          # Clone the repository to the runner's temporary folder 
+          # so it stays completely out of your Overleaf workspace
+          git clone https://github.com/latex3/pdf_structure.git /tmp/pdf_structure
+
+      # ----------------------------------------------------------------
+      # STEP 3: Run the Utility and Generate XML
+      # ----------------------------------------------------------------
+      - name: Generate XML Tags
+        run: |
+          # Navigate to the utility's directory
+          cd /tmp/pdf_structure/show-pdf-tags
+          
+          # Run luatex against the PDF in your repository ($GITHUB_WORKSPACE)
+          # The output is routed back to your repository as 'pdf-tags.xml'
+          luatex show-pdf-tags.lua --xml "$GITHUB_WORKSPACE/output/main.pdf" > "$GITHUB_WORKSPACE/output/pdf-tags.xml"
+
+      # ----------------------------------------------------------------
+      # STEP 4: Commit Artifact Back to Repo
+      # ----------------------------------------------------------------
+      - name: Commit and Push XML
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Add the generated XML file
+          git add output/pdf-tags.xml
+          
+          if ! git diff --quiet --cached; then
+            git commit -m "Build: Extract PDF structural tags to XML"
+            git push
+          else
+            echo "No changes to XML."
+          fi
