@@ -14,22 +14,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ----------------------------------------------------------------
+    # ----------------------------------------------------------------
       # STEP 1: Install Minimal Dependencies
       # ----------------------------------------------------------------
-      - name: Install TeX Live Binaries
+      - name: Install Minimal TeX Environment
         run: |
           sudo apt-get update
-          # This installs luatex and other core binaries without the massive package trees
-          sudo apt-get install -y texlive-binaries
+          # Use texlive-base to ensure kpathsea directory structures are configured
+          sudo apt-get install -y texlive-base
 
       # ----------------------------------------------------------------
       # STEP 2: Fetch the Utility
       # ----------------------------------------------------------------
       - name: Download show-pdf-tags
         run: |
-          # Clone the repository to the runner's temporary folder 
-          # so it stays completely out of your Overleaf workspace
           git clone https://github.com/latex3/pdf_structure.git /tmp/pdf_structure
 
       # ----------------------------------------------------------------
@@ -37,12 +35,10 @@ jobs:
       # ----------------------------------------------------------------
       - name: Generate XML Tags
         run: |
-          # Navigate to the utility's directory
           cd /tmp/pdf_structure/show-pdf-tags
           
-          # Run luatex against the PDF in your repository ($GITHUB_WORKSPACE)
-          # The output is routed back to your repository as 'pdf-tags.xml'
-          luatex show-pdf-tags.lua --xml "$GITHUB_WORKSPACE/output/main.pdf" > "$GITHUB_WORKSPACE/output/pdf-tags.xml"
+          # Use 'texlua' instead of 'luatex' to run it purely as a script
+          texlua show-pdf-tags.lua --xml "$GITHUB_WORKSPACE/output/main.pdf" > "$GITHUB_WORKSPACE/output/pdf-tags.xml"
 
       # ----------------------------------------------------------------
       # STEP 4: Commit Artifact Back to Repo
