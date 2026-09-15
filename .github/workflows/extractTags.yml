@@ -25,7 +25,7 @@ jobs:
           
           # TRICK KPATHSEA: The script hardcodes a search for 'lualatex'.
           # We create a symlink in the system path so it finds it and stops crashing.
-          # sudo ln -s /usr/bin/luatex /usr/local/bin/lualatex
+          sudo ln -s /usr/bin/luatex /usr/local/bin/lualatex
 
       # ----------------------------------------------------------------
       # STEP 2: Fetch the Utility
@@ -42,7 +42,7 @@ jobs:
           cd /tmp/pdf_structure/show-pdf-tags
           
           # Run the standard command. The symlink we created prevents the crash.
-          lualatex show-pdf-tags.lua --xml "$GITHUB_WORKSPACE/output/main.pdf" > "$GITHUB_WORKSPACE/output/pdf-tags.xml"
+          luatex show-pdf-tags.lua --xml "$GITHUB_WORKSPACE/output/main.pdf" > "$GITHUB_WORKSPACE/output/pdf-tags.xml"
 
       # ----------------------------------------------------------------
       # STEP 4: Commit Artifact Back to Repo
