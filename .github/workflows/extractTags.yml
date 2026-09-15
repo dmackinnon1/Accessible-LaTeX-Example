@@ -14,14 +14,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-    # ----------------------------------------------------------------
+      # ----------------------------------------------------------------
       # STEP 1: Install Minimal Dependencies
       # ----------------------------------------------------------------
       - name: Install Minimal TeX Environment
         run: |
           sudo apt-get update
-          # Use texlive-base to ensure kpathsea directory structures are configured
-          sudo apt-get install -y texlive-base
+          # Install base for kpathsea directory structures
+          # Install luatex to satisfy the script's 'set_program_name' requirement
+          sudo apt-get install -y texlive-base texlive-luatex
 
       # ----------------------------------------------------------------
       # STEP 2: Fetch the Utility
