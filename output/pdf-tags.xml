@@ -1,0 +1,1697 @@
+<PDF>
+ <StructTreeRoot>
+  <Document xmlns="http://iso.org/pdf2/ssn"
+     id="ID.0002"
+    >
+   <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+      id="ID.0006"
+      rolemaps-to="Part"
+     >
+    <Title xmlns="http://iso.org/pdf2/ssn"
+       id="ID.0007"
+      >
+     <text xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0008"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:TextAlign="Center"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="1" ?>Accessible LaTeX example
+     </text>
+    </Title>
+    <text xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0009"
+       xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+       Layout:TextAlign="Center"
+       rolemaps-to="P"
+      >
+     <?MarkedContent page="1" ?> Overleaf Support
+    </text>
+    <text xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0010"
+       xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+       Layout:TextAlign="Center"
+       rolemaps-to="P"
+      >
+     <?MarkedContent page="1" ?>July 16, 2026
+    </text>
+   </text-unit>
+   <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+      id="ID.0011"
+      rolemaps-to="Part"
+     >
+    <text xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0012"
+       xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+       Layout:TextAlign="Center"
+       rolemaps-to="P"
+      >
+     <?MarkedContent page="1" ?>Abstract
+    </text>
+    <quotation xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0013"
+       rolemaps-to="BlockQuote"
+      >
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0014"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0015"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="1" ?>A simple 
+       <Span xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0016"
+          actualtext="LaTeX"
+          phoneme="[ˈlaːtɛx]"
+         >
+        <?MarkedContent page="1" ?>LATEX
+       </Span>
+       <?MarkedContent page="1" ?> document authored using Overleaf. This document takes ad
+       <?MarkedContent page="1" ?>vantage of the PDF tagging support provided by the 
+       <Span xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0017"
+          actualtext="LaTeX"
+          phoneme="[ˈlaːtɛx]"
+         >
+        <?MarkedContent page="1" ?>LATEX
+       </Span>
+       <?MarkedContent page="1" ?> team that is available in TeXLive 2025.
+      </text>
+     </text-unit>
+    </quotation>
+   </text-unit>
+   <Sect xmlns="http://iso.org/pdf2/ssn"
+      id="ID.0018"
+     >
+    <section xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0019"
+       title="Introduction"
+       rolemaps-to="H1"
+      >
+     <section-number xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0020"
+        rolemaps-to="Span"
+       >
+      <?MarkedContent page="1" ?>1 
+     </section-number>
+     <?MarkedContent page="1" ?>Introduction
+    </section>
+    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0021"
+       rolemaps-to="Part"
+      >
+     <text xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0022"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:TextAlign="Justify"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="1" ?>This simple example describes some of the considerations that go into creating accessible documents with 
+      <Span xmlns="http://iso.org/pdf2/ssn"
+         id="ID.0023"
+         actualtext="LaTeX"
+         phoneme="[ˈlaːtɛx]"
+        >
+       <?MarkedContent page="1" ?>LATEX
+      </Span>
+      <?MarkedContent page="1" ?> using Overleaf.
+     </text>
+    </text-unit>
+    <Sect xmlns="http://iso.org/pdf2/ssn"
+       id="ID.0024"
+      >
+     <subsection xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0025"
+        title="Selecting the TeX Live version in Overleaf"
+        rolemaps-to="H2"
+       >
+      <section-number xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0026"
+         rolemaps-to="Span"
+        >
+       <?MarkedContent page="1" ?>1.1 
+      </section-number>
+      <?MarkedContent page="1" ?>Selecting the TeX Live version in Overleaf
+     </subsection>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0027"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0028"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="1" ?>Overleaf uses a standard TeX Live 
+       <Span xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0029"
+          actualtext="LaTeX"
+          phoneme="[ˈlaːtɛx]"
+         >
+        <?MarkedContent page="1" ?>LATEX
+       </Span>
+       <?MarkedContent page="1" ?> environment, making the accessibility support that is being provided by the 
+       <Link xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0030"
+         >
+        <?MarkedContent page="1" ?>
+        <Span xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0031"
+           actualtext="LaTeX"
+           phoneme="[ˈlaːtɛx]"
+          >
+         <?MarkedContent page="1" ?>LATEX
+        </Span>
+        <?MarkedContent page="1" ?> team
+        <?ReferencedObject type="Annot" page="1" ?>
+       </Link>
+       <?MarkedContent page="1" ?> available to all Overleaf users.
+      </text>
+     </text-unit>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0032"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0033"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="1" ?>With 2025 TeX Live, 
+       <Span xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0034"
+          actualtext="LaTeX"
+          phoneme="[ˈlaːtɛx]"
+         >
+        <?MarkedContent page="1" ?>LATEX
+       </Span>
+       <?MarkedContent page="1" ?> can now produce tagged PDFs automatically – a key re
+       <?MarkedContent page="1" ?>quirement for accessibility. Additional accessibility features are being added on an ongoing basis to the TeX Live builds. Currently, 
+       <Link xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0035"
+         >
+        <?MarkedContent page="1" ?>new projects created in Overleaf
+        <?ReferencedObject type="Annot" page="1" ?>
+       </Link>
+       <?MarkedContent page="1" ?> use the 2025 TeX Live tested release, and for those who need even more recent releases, a rolling updated version of TeX Live is available through our 
+       <Link xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0036"
+         >
+        <?MarkedContent page="1" ?>Overleaf Labs
+        <?ReferencedObject type="Annot" page="1" ?>
+       </Link>
+       <?MarkedContent page="1" ?> program. For most requirements, the standard 2025 TeX Live image should be sufficient, but for those who wish to use the most recent features provided by the 
+       <Span xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0037"
+          actualtext="LaTeX"
+          phoneme="[ˈlaːtɛx]"
+         >
+        <?MarkedContent page="1" ?>LATEX
+       </Span>
+       <?MarkedContent page="1" ?> team, the rolling version provided by Overleaf Labs may be required.
+      </text>
+     </text-unit>
+    </Sect>
+    <Sect xmlns="http://iso.org/pdf2/ssn"
+       id="ID.0038"
+      >
+     <subsection xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0039"
+        title="Including DocumentMetadata"
+        rolemaps-to="H2"
+       >
+      <section-number xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0040"
+         rolemaps-to="Span"
+        >
+       <?MarkedContent page="1" ?>1.2 
+      </section-number>
+      <?MarkedContent page="1" ?>Including DocumentMetadata
+     </subsection>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0041"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0042"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="1" ?>A key requirement for setting up the tagging support is to include the DocumentMetadata prior to the 
+       <Code xmlns="http://iso.org/pdf/ssn"
+          id="ID.0043"
+         >
+        <?MarkedContent page="1" ?>\documentclass
+       </Code>
+       <?MarkedContent page="1" ?> declaration. Please see the 
+       <Span xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0044"
+          actualtext="LaTeX"
+          phoneme="[ˈlaːtɛx]"
+         >
+        <?MarkedContent page="1" ?>LATEX
+       </Span>
+       <?MarkedContent page="1" ?> team’s 
+       <Link xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0045"
+         >
+        <?MarkedContent page="1" ?>tagging usage instructions
+        <?ReferencedObject type="Annot" page="1" ?>
+        <?ReferencedObject type="Annot" page="1" ?>
+       </Link>
+       <?MarkedContent page="1" ?> for details.
+      </text>
+     </text-unit>
+    </Sect>
+   </Sect>
+   <Sect xmlns="http://iso.org/pdf2/ssn"
+      id="ID.0104"
+     >
+    <section xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0105"
+       title="Tagging special structures"
+       rolemaps-to="H1"
+      >
+     <section-number xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0106"
+        rolemaps-to="Span"
+       >
+      <?MarkedContent page="2" ?>2 
+     </section-number>
+     <?MarkedContent page="2" ?>Tagging special structures
+    </section>
+    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0107"
+       rolemaps-to="Part"
+      >
+     <text xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0108"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:TextAlign="Justify"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="2" ?>The automatic tagging provided now in 
+      <Span xmlns="http://iso.org/pdf2/ssn"
+         id="ID.0109"
+         actualtext="LaTeX"
+         phoneme="[ˈlaːtɛx]"
+        >
+       <?MarkedContent page="2" ?>LATEX
+      </Span>
+      <?MarkedContent page="2" ?> doesn’t guarantee accessibility. Having an error-free document, that uses standard 
+      <Span xmlns="http://iso.org/pdf2/ssn"
+         id="ID.0110"
+         actualtext="LaTeX"
+         phoneme="[ˈlaːtɛx]"
+        >
+       <?MarkedContent page="2" ?>LATEX
+      </Span>
+      <?MarkedContent page="2" ?> commands (for sections, lists, etc.) is also essential.
+     </text>
+    </text-unit>
+    <Sect xmlns="http://iso.org/pdf2/ssn"
+       id="ID.0111"
+      >
+     <subsection xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0112"
+        title="Remember to include alternate text for images"
+        rolemaps-to="H2"
+       >
+      <section-number xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0113"
+         rolemaps-to="Span"
+        >
+       <?MarkedContent page="2" ?>2.1 
+      </section-number>
+      <?MarkedContent page="2" ?>Remember to include alternate text for images
+     </subsection>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0114"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0115"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="2" ?>For figures, you can use the alt optional parameter to the 
+       <Code xmlns="http://iso.org/pdf/ssn"
+          id="ID.0116"
+         >
+        <?MarkedContent page="2" ?>\includegraphics
+       </Code>
+       <?MarkedContent page="2" ?> command that is provided with the graphicx package.
+      </text>
+     </text-unit>
+    </Sect>
+    <Sect xmlns="http://iso.org/pdf2/ssn"
+       id="ID.0124"
+      >
+     <subsection xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0125"
+        title="Tagging tables"
+        rolemaps-to="H2"
+       >
+      <section-number xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0126"
+         rolemaps-to="Span"
+        >
+       <?MarkedContent page="2" ?>2.2 
+      </section-number>
+      <?MarkedContent page="2" ?>Tagging tables
+     </subsection>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0127"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0128"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="2" ?>Use the table and tabular environments for basic tables — see Table 
+       <Link xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0129"
+         >
+        <?MarkedContent page="2" ?>1
+        <?ReferencedObject type="Annot" page="2" ?>
+       </Link>
+       <?MarkedContent page="2" ?>.
+      </text>
+     </text-unit>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0130"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0131"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="2" ?>For tables, you should include the command that will identify the header row, which would typically be the first row: 
+       <Code xmlns="http://iso.org/pdf/ssn"
+          id="ID.0132"
+         >
+        <?MarkedContent page="2" ?>\tagpdfsetup{table/header-rows={1}}
+       </Code>
+       <?MarkedContent page="2" ?>.
+      </text>
+     </text-unit>
+    </Sect>
+    <Sect xmlns="http://iso.org/pdf2/ssn"
+       id="ID.0150"
+      >
+     <subsection xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0151"
+        title="How to write accessible mathematics"
+        rolemaps-to="H2"
+       >
+      <section-number xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0152"
+         rolemaps-to="Span"
+        >
+       <?MarkedContent page="3" ?>2.3 
+      </section-number>
+      <?MarkedContent page="3" ?>How to write accessible mathematics
+     </subsection>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0153"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0154"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <Span xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0155"
+          actualtext="LaTeX"
+          phoneme="[ˈlaːtɛx]"
+         >
+        <?MarkedContent page="3" ?>LATEX
+       </Span>
+       <?MarkedContent page="3" ?> is great at typesetting mathematics.
+      </text>
+     </text-unit>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0156"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0157"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="3" ?>For equations, you should compile with LuaLaTeX if possible to generate the MathML. If you compile with LuaLaTeX and include the 
+       <Code xmlns="http://iso.org/pdf/ssn"
+          id="ID.0158"
+         >
+        <?MarkedContent page="3" ?>tagging-setup={math/setup=mathml-SE}
+       </Code>
+       <?MarkedContent page="3" ?> option, MathML versions of the equations will be added into the tagged PDF directly.
+      </text>
+     </text-unit>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0159"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0160"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="3" ?>Below is some example mathematics, which will be properly tagged and provided with its MathML translation in the final PDF
+      </text>
+     </text-unit>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0161"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0162"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="3" ?>Let 
+       <Formula xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0163"
+          title="math"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:Placement="Inline"
+         >
+        <?MarkedContent page="3" ?>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0164"
+          >
+         <msub xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0165"
+           >
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0166"
+            >
+           <?MarkedContent page="3" ?>𝑋
+          </mi>
+          <mn xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0167"
+            >
+           <?MarkedContent page="3" ?>1
+          </mn>
+         </msub>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0168"
+            lspace="0"
+            rspace="0.167em"
+           >
+          <?MarkedContent page="3" ?>,
+         </mo>
+         <msub xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0169"
+           >
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0170"
+            >
+           <?MarkedContent page="3" ?>𝑋
+          </mi>
+          <mn xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0171"
+            >
+           <?MarkedContent page="3" ?>2
+          </mn>
+         </msub>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0172"
+            lspace="0"
+            rspace="0"
+           >
+          <?MarkedContent page="3" ?>,
+         </mo>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0173"
+            lspace="0.167em"
+            rspace="0"
+           >
+          <?MarkedContent page="3" ?>…
+         </mo>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0174"
+            lspace="0.167em"
+            rspace="0.167em"
+           >
+          <?MarkedContent page="3" ?>,
+         </mo>
+         <msub xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0175"
+           >
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0176"
+            >
+           <?MarkedContent page="3" ?>𝑋
+          </mi>
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0177"
+            >
+           <?MarkedContent page="3" ?>𝑛
+          </mi>
+         </msub>
+        </math>
+        <?MarkedContent page="3" ?>
+       </Formula>
+       <?MarkedContent page="3" ?> be a sequence of independent and identically distributed random variables with 
+       <Formula xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0178"
+          title="math"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:Placement="Inline"
+         >
+        <math xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0180"
+          >
+         <mtext xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0179"
+           >
+          <?MarkedContent page="3" ?>E
+         </mtext>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0181"
+            lspace="0"
+            rspace="0"
+            stretchy="false"
+           >
+          <?MarkedContent page="3" ?>[
+         </mo>
+         <msub xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0182"
+           >
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0183"
+            >
+           <?MarkedContent page="3" ?>𝑋
+          </mi>
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0184"
+            >
+           <?MarkedContent page="3" ?>𝑖
+          </mi>
+         </msub>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0185"
+            lspace="0"
+            rspace="0"
+            stretchy="false"
+           >
+          <?MarkedContent page="3" ?>]
+         </mo>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0186"
+            lspace="0.278em"
+            rspace="0.278em"
+           >
+          <?MarkedContent page="3" ?>=
+         </mo>
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0187"
+           >
+          <?MarkedContent page="3" ?>𝜇
+         </mi>
+        </math>
+        <?MarkedContent page="3" ?>
+       </Formula>
+       <?MarkedContent page="3" ?> and 
+       <Formula xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0188"
+          title="math"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:Placement="Inline"
+         >
+        <math xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0190"
+          >
+         <mtext xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0189"
+           >
+          <?MarkedContent page="3" ?>Var
+         </mtext>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0191"
+            lspace="0"
+            rspace="0"
+            stretchy="false"
+           >
+          <?MarkedContent page="3" ?>[
+         </mo>
+         <msub xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0192"
+           >
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0193"
+            >
+           <?MarkedContent page="3" ?>𝑋
+          </mi>
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0194"
+            >
+           <?MarkedContent page="3" ?>𝑖
+          </mi>
+         </msub>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0195"
+            lspace="0"
+            rspace="0"
+            stretchy="false"
+           >
+          <?MarkedContent page="3" ?>]
+         </mo>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0196"
+            lspace="0.278em"
+            rspace="0.278em"
+           >
+          <?MarkedContent page="3" ?>=
+         </mo>
+         <msup xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0197"
+           >
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0198"
+            >
+           <?MarkedContent page="3" ?>𝜎
+          </mi>
+          <mn xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0199"
+            >
+           <?MarkedContent page="3" ?>2
+          </mn>
+         </msup>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0200"
+            lspace="0.278em"
+            rspace="0.278em"
+           >
+          <?MarkedContent page="3" ?>&lt;
+         </mo>
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0201"
+            mathvariant="normal"
+           >
+          <?MarkedContent page="3" ?>∞
+         </mi>
+        </math>
+        <?MarkedContent page="3" ?>
+       </Formula>
+       <?MarkedContent page="3" ?>, and let
+      </text>
+      <Formula xmlns="http://iso.org/pdf2/ssn"
+         id="ID.0202"
+         title="equation*"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:Placement="Block"
+        >
+       <math xmlns="http://www.w3.org/1998/Math/MathML"
+          id="ID.0203"
+          display="block"
+         >
+        <msub xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0204"
+          >
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0205"
+           >
+          <?MarkedContent page="3" ?>𝑆
+         </mi>
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0206"
+           >
+          <?MarkedContent page="3" ?>𝑛
+         </mi>
+        </msub>
+        <mo xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0207"
+           lspace="0.278em"
+           rspace="0.278em"
+          >
+         <?MarkedContent page="3" ?>=
+        </mo>
+        <mfrac xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0208"
+          >
+         <mrow xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0209"
+           >
+          <msub xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0210"
+            >
+           <mi xmlns="http://www.w3.org/1998/Math/MathML"
+              id="ID.0211"
+             >
+            <?MarkedContent page="3" ?>𝑋
+           </mi>
+           <mn xmlns="http://www.w3.org/1998/Math/MathML"
+              id="ID.0212"
+             >
+            <?MarkedContent page="3" ?>1
+           </mn>
+          </msub>
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0213"
+             lspace="0.222em"
+             rspace="0.222em"
+            >
+           <?MarkedContent page="3" ?>+
+          </mo>
+          <msub xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0214"
+            >
+           <mi xmlns="http://www.w3.org/1998/Math/MathML"
+              id="ID.0215"
+             >
+            <?MarkedContent page="3" ?>𝑋
+           </mi>
+           <mn xmlns="http://www.w3.org/1998/Math/MathML"
+              id="ID.0216"
+             >
+            <?MarkedContent page="3" ?>2
+           </mn>
+          </msub>
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0217"
+             lspace="0.222em"
+             rspace="0"
+            >
+           <?MarkedContent page="3" ?>+
+          </mo>
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0218"
+             lspace="0.222em"
+             rspace="0"
+            >
+           <?MarkedContent page="3" ?>⋯
+          </mo>
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0219"
+             lspace="0.222em"
+             rspace="0.222em"
+            >
+           <?MarkedContent page="3" ?>+
+          </mo>
+          <msub xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0220"
+            >
+           <mi xmlns="http://www.w3.org/1998/Math/MathML"
+              id="ID.0221"
+             >
+            <?MarkedContent page="3" ?>𝑋
+           </mi>
+           <mi xmlns="http://www.w3.org/1998/Math/MathML"
+              id="ID.0222"
+             >
+            <?MarkedContent page="3" ?>𝑛
+           </mi>
+          </msub>
+         </mrow>
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0223"
+           >
+          <?MarkedContent page="3" ?>𝑛
+         </mi>
+        </mfrac>
+        <mo xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0224"
+           lspace="0.278em"
+           rspace="0.278em"
+          >
+         <?MarkedContent page="3" ?>=
+        </mo>
+        <mfrac xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0225"
+          >
+         <mn xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0226"
+           >
+          <?MarkedContent page="3" ?>1
+         </mn>
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0227"
+           >
+          <?MarkedContent page="3" ?>𝑛
+         </mi>
+        </mfrac>
+        <munderover xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0228"
+          >
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0229"
+            lspace="0.167em"
+            movablelimits="true"
+            rspace="0.167em"
+           >
+          <?MarkedContent page="3" ?>∑
+         </mo>
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0230"
+           >
+          <?MarkedContent page="3" ?>𝑖
+         </mi>
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0231"
+           >
+          <?MarkedContent page="3" ?>𝑛
+         </mi>
+        </munderover>
+        <msub xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0232"
+          >
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0233"
+           >
+          <?MarkedContent page="3" ?>𝑋
+         </mi>
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0234"
+           >
+          <?MarkedContent page="3" ?>𝑖
+         </mi>
+        </msub>
+       </math>
+      </Formula>
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0235"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="3" ?>denote their mean. Then as 
+       <Formula xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0236"
+          title="math"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:Placement="Inline"
+         >
+        <?MarkedContent page="3" ?>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0237"
+          >
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0238"
+           >
+          <?MarkedContent page="3" ?>𝑛
+         </mi>
+        </math>
+        <?MarkedContent page="3" ?>
+       </Formula>
+       <?MarkedContent page="3" ?> approaches infinity, the random variables 
+       <Formula xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0239"
+          title="math"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:Placement="Inline"
+         >
+        <math xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0240"
+          >
+         <msqrt xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0241"
+           >
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0242"
+            >
+           <?MarkedContent page="3" ?>𝑛
+          </mi>
+         </msqrt>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0243"
+            lspace="0"
+            rspace="0"
+            stretchy="false"
+           >
+          <?MarkedContent page="3" ?>(
+         </mo>
+         <msub xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0244"
+           >
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0245"
+            >
+           <?MarkedContent page="3" ?>𝑆
+          </mi>
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0246"
+            >
+           <?MarkedContent page="3" ?>𝑛
+          </mi>
+         </msub>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0247"
+            lspace="0.222em"
+            rspace="0.222em"
+           >
+          <?MarkedContent page="3" ?>−
+         </mo>
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0248"
+           >
+          <?MarkedContent page="3" ?>𝜇
+         </mi>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0249"
+            lspace="0"
+            rspace="0"
+            stretchy="false"
+           >
+          <?MarkedContent page="3" ?>)
+         </mo>
+        </math>
+        <?MarkedContent page="3" ?>
+       </Formula>
+       <?MarkedContent page="3" ?>converge in distribution to a normal 
+       <Formula xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0250"
+          title="math"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:Placement="Inline"
+         >
+        <?MarkedContent page="3" ?>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"
+           id="ID.0251"
+          >
+         <mi xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0252"
+           >
+          <?MarkedContent page="3" ?>𝒩
+         </mi>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0253"
+            lspace="0"
+            rspace="0"
+            stretchy="false"
+           >
+          <?MarkedContent page="3" ?>(
+         </mo>
+         <mn xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0254"
+           >
+          <?MarkedContent page="3" ?>0
+         </mn>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0255"
+            lspace="0"
+            rspace="0.167em"
+           >
+          <?MarkedContent page="3" ?>,
+         </mo>
+         <msup xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0256"
+           >
+          <mi xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0257"
+            >
+           <?MarkedContent page="3" ?>𝜎
+          </mi>
+          <mn xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0258"
+            >
+           <?MarkedContent page="3" ?>2
+          </mn>
+         </msup>
+         <mo xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0259"
+            lspace="0"
+            rspace="0"
+            stretchy="false"
+           >
+          <?MarkedContent page="3" ?>)
+         </mo>
+        </math>
+        <?MarkedContent page="3" ?>
+       </Formula>
+       <?MarkedContent page="3" ?>.
+      </text>
+     </text-unit>
+    </Sect>
+   </Sect>
+   <Sect xmlns="http://iso.org/pdf2/ssn"
+      id="ID.0260"
+     >
+    <section xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0261"
+       title="Other accessibility considerations"
+       rolemaps-to="H1"
+      >
+     <section-number xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0262"
+        rolemaps-to="Span"
+       >
+      <?MarkedContent page="3" ?>3 
+     </section-number>
+     <?MarkedContent page="3" ?>Other accessibility considerations
+    </section>
+    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0263"
+       rolemaps-to="Part"
+      >
+     <text xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0264"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:TextAlign="Justify"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="3" ?>While PDF tagging is a key criteria that many accessibility verification systems check for, accessibility criteria and testing can vary, and the efficacy of tagged PDFs can vary with different assistive technologies.
+     </text>
+    </text-unit>
+    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0265"
+       rolemaps-to="Part"
+      >
+     <text xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0266"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:TextAlign="Justify"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="3" ?>It is recommended that you validate sample tagged PDFs according to the criteria set by your institution, and test using the assistive technologies that have been adopted by your users.
+     </text>
+    </text-unit>
+   </Sect>
+   <Sect xmlns="http://iso.org/pdf2/ssn"
+      id="ID.0267"
+     >
+    <section xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0268"
+       title="Other formats"
+       rolemaps-to="H1"
+      >
+     <section-number xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0269"
+        rolemaps-to="Span"
+       >
+      <?MarkedContent page="3" ?>4 
+     </section-number>
+     <?MarkedContent page="3" ?>Other formats
+    </section>
+    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0270"
+       rolemaps-to="Part"
+      >
+     <text xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0271"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:TextAlign="Justify"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="3" ?>In addition to PDF output, it is also possible to compile to HTML using latexml and bookml.
+     </text>
+    </text-unit>
+    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0272"
+       rolemaps-to="Part"
+      >
+     <text xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0273"
+        xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+        Layout:TextAlign="Justify"
+        rolemaps-to="P"
+       >
+      <?MarkedContent page="3" ?>When using Overleaf, the 
+      <Link xmlns="http://iso.org/pdf2/ssn"
+         id="ID.0274"
+        >
+       <?MarkedContent page="3" ?>GitHub synchronization
+       <?ReferencedObject type="Annot" page="3" ?>
+      </Link>
+      <?MarkedContent page="3" ?> feature makes it possible to run these tools outside of Overleaf as GitHub workflows.
+     </text>
+    </text-unit>
+   </Sect>
+   <Sect xmlns="http://iso.org/pdf2/ssn"
+      id="ID.0275"
+     >
+    <section xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0276"
+       title="References"
+       rolemaps-to="H1"
+      >
+     <?MarkedContent page="3" ?>References
+    </section>
+    <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0277"
+       rolemaps-to="Part"
+      >
+     <list xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0278"
+        xmlns:List="http://iso.org/pdf/ssn/List"
+        List:ListNumbering="Ordered"
+        rolemaps-to="L"
+       >
+      <item xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0279"
+         rolemaps-to="LI"
+        >
+       <itemlabel xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0280"
+          rolemaps-to="Lbl"
+         >
+        <?MarkedContent page="3" ?>[LaT25]
+       </itemlabel>
+       <itembody xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0281"
+          rolemaps-to="LBody"
+         >
+        <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+           id="ID.0282"
+           rolemaps-to="Part"
+          >
+         <text xmlns="https://www.latex-project.org/ns/dflt"
+            id="ID.0283"
+            xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+            Layout:TextAlign="Justify"
+            rolemaps-to="P"
+           >
+          <?MarkedContent page="3" ?>LaTeX team.  The latex tagged pdf project, 2025. 
+          <Link xmlns="http://iso.org/pdf2/ssn"
+             id="ID.0284"
+            >
+           <?MarkedContent page="3" ?>https://latex3.github.io/tagging-project/
+           <?ReferencedObject type="Annot" page="3" ?>
+           <?ReferencedObject type="Annot" page="3" ?>
+          </Link>
+          <?MarkedContent page="3" ?>.
+         </text>
+        </text-unit>
+       </itembody>
+      </item>
+      <item xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0285"
+         rolemaps-to="LI"
+        >
+       <itemlabel xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0286"
+          rolemaps-to="Lbl"
+         >
+        <?MarkedContent page="3" ?>[Mil24]
+       </itemlabel>
+       <itembody xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0287"
+          rolemaps-to="LBody"
+         >
+        <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+           id="ID.0288"
+           rolemaps-to="Part"
+          >
+         <text xmlns="https://www.latex-project.org/ns/dflt"
+            id="ID.0289"
+            xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+            Layout:TextAlign="Justify"
+            rolemaps-to="P"
+           >
+          <?MarkedContent page="3" ?>Bruce R. Miller.  LaTeXML the manual, 2024. 
+          <Link xmlns="http://iso.org/pdf2/ssn"
+             id="ID.0290"
+            >
+           <?MarkedContent page="3" ?>https://math.nist.gov/~BMiller/LaTeXML/manual/
+           <?ReferencedObject type="Annot" page="3" ?>
+           <?ReferencedObject type="Annot" page="3" ?>
+          </Link>
+          <?MarkedContent page="3" ?>.
+         </text>
+        </text-unit>
+       </itembody>
+      </item>
+      <item xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0291"
+         rolemaps-to="LI"
+        >
+       <itemlabel xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0292"
+          rolemaps-to="Lbl"
+         >
+        <?MarkedContent page="4" ?>[Ros25]
+       </itemlabel>
+       <itembody xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0293"
+          rolemaps-to="LBody"
+         >
+        <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+           id="ID.0294"
+           rolemaps-to="Part"
+          >
+         <text xmlns="https://www.latex-project.org/ns/dflt"
+            id="ID.0295"
+            xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+            Layout:TextAlign="Justify"
+            rolemaps-to="P"
+           >
+          <?MarkedContent page="4" ?>Julius Ross.  Accessibility for the working mathematician.  arXiv preprint arXiv:2505.22667, 2025. 
+          <Link xmlns="http://iso.org/pdf2/ssn"
+             id="ID.0296"
+            >
+           <?MarkedContent page="4" ?>https://arxiv.org/abs/2505.22667
+           <?ReferencedObject type="Annot" page="4" ?>
+          </Link>
+          <?MarkedContent page="4" ?>.
+         </text>
+        </text-unit>
+       </itembody>
+      </item>
+     </list>
+    </text-unit>
+   </Sect>
+   <figures xmlns="https://www.latex-project.org/ns/dflt"
+      id="ID.0004"
+      rolemaps-to="Sect"
+     >
+    <float xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0046"
+       rolemaps-to="Aside"
+      >
+     <Caption xmlns="http://iso.org/pdf2/ssn"
+        id="ID.0101"
+       >
+      <Lbl xmlns="http://iso.org/pdf2/ssn"
+         id="ID.0102"
+        >
+       <?MarkedContent page="2" ?>Figure 1: 
+      </Lbl>
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0103"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Justify"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="2" ?>The DocumentMetada used in this document
+      </text>
+     </Caption>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0047"
+        rolemaps-to="Part"
+       >
+      <verbatim xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0048"
+         rolemaps-to="Code"
+        >
+       <codeline xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0049"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:TextAlign="Justify"
+          rolemaps-to="Sub"
+         >
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0050"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0051"
+           >
+          <mrow xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0052"
+             intent="_newline"
+            >
+          </mrow>
+         </math>
+        </Formula>
+        <?MarkedContent page="2" ?>\DocumentMetadata
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0053"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0054"
+           >
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0055"
+            >
+           <?MarkedContent page="2" ?>{
+          </mo>
+         </math>
+        </Formula>
+       </codeline>
+       <codeline xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0056"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:TextAlign="Justify"
+          rolemaps-to="Sub"
+         >
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0057"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0058"
+           >
+          <mrow xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0059"
+             intent="_newline"
+            >
+          </mrow>
+         </math>
+        </Formula>
+        <?MarkedContent page="2" ?>  lang        = en
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0060"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0061"
+           >
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0062"
+            >
+           <?MarkedContent page="2" ?>,
+          </mo>
+         </math>
+        </Formula>
+       </codeline>
+       <codeline xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0063"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:TextAlign="Justify"
+          rolemaps-to="Sub"
+         >
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0064"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0065"
+           >
+          <mrow xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0066"
+             intent="_newline"
+            >
+          </mrow>
+         </math>
+        </Formula>
+        <?MarkedContent page="2" ?>  pdfstandard = ua-2
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0067"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0068"
+           >
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0069"
+            >
+           <?MarkedContent page="2" ?>,
+          </mo>
+         </math>
+        </Formula>
+       </codeline>
+       <codeline xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0070"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:TextAlign="Justify"
+          rolemaps-to="Sub"
+         >
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0071"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0072"
+           >
+          <mrow xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0073"
+             intent="_newline"
+            >
+          </mrow>
+         </math>
+        </Formula>
+        <?MarkedContent page="2" ?>  pdfstandard = a-4
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0074"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0075"
+           >
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0076"
+            >
+           <?MarkedContent page="2" ?>,
+          </mo>
+         </math>
+        </Formula>
+       </codeline>
+       <codeline xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0077"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:TextAlign="Justify"
+          rolemaps-to="Sub"
+         >
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0078"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0079"
+           >
+          <mrow xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0080"
+             intent="_newline"
+            >
+          </mrow>
+         </math>
+        </Formula>
+        <?MarkedContent page="2" ?>  tagging=on
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0081"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0082"
+           >
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0083"
+            >
+           <?MarkedContent page="2" ?>,
+          </mo>
+         </math>
+        </Formula>
+       </codeline>
+       <codeline xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0084"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:TextAlign="Justify"
+          rolemaps-to="Sub"
+         >
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0085"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0086"
+           >
+          <mrow xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0087"
+             intent="_newline"
+            >
+          </mrow>
+         </math>
+        </Formula>
+        <?MarkedContent page="2" ?>  tagging-setup=
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0088"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0089"
+           >
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0090"
+            >
+           <?MarkedContent page="2" ?>{
+          </mo>
+         </math>
+        </Formula>
+        <?MarkedContent page="2" ?>math/setup=mathml-SE
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0091"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0092"
+           >
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0093"
+            >
+           <?MarkedContent page="2" ?>}
+          </mo>
+         </math>
+        </Formula>
+       </codeline>
+       <codeline xmlns="https://www.latex-project.org/ns/dflt"
+          id="ID.0094"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:TextAlign="Justify"
+          rolemaps-to="Sub"
+         >
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0095"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0096"
+           >
+          <mrow xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0097"
+             intent="_newline"
+            >
+          </mrow>
+         </math>
+        </Formula>
+        <Formula xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0098"
+          >
+         <math xmlns="http://www.w3.org/1998/Math/MathML"
+            id="ID.0099"
+           >
+          <mo xmlns="http://www.w3.org/1998/Math/MathML"
+             id="ID.0100"
+            >
+           <?MarkedContent page="2" ?>}
+          </mo>
+         </math>
+        </Formula>
+       </codeline>
+      </verbatim>
+     </text-unit>
+    </float>
+    <float xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0117"
+       rolemaps-to="Aside"
+      >
+     <Caption xmlns="http://iso.org/pdf2/ssn"
+        id="ID.0121"
+       >
+      <Lbl xmlns="http://iso.org/pdf2/ssn"
+         id="ID.0122"
+        >
+       <?MarkedContent page="2" ?>Figure 2: 
+      </Lbl>
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0123"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Center"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="2" ?>This image has some alt text
+      </text>
+     </Caption>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0118"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0119"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Center"
+         rolemaps-to="P"
+        >
+       <Figure xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0120"
+          alt="image of a frog facing towards the reader"
+          xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+          Layout:BBox="{ 250.75986, 331.38182, 361.24018, 416.75308 }"
+         >
+        <?MarkedContent page="2" ?>
+       </Figure>
+      </text>
+     </text-unit>
+    </float>
+   </figures>
+   <tables xmlns="https://www.latex-project.org/ns/dflt"
+      id="ID.0005"
+      rolemaps-to="Sect"
+     >
+    <float xmlns="https://www.latex-project.org/ns/dflt"
+       id="ID.0133"
+       rolemaps-to="Aside"
+      >
+     <Caption xmlns="http://iso.org/pdf2/ssn"
+        id="ID.0147"
+       >
+      <Lbl xmlns="http://iso.org/pdf2/ssn"
+         id="ID.0148"
+        >
+       <?MarkedContent page="2" ?>Table 1: 
+      </Lbl>
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0149"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Center"
+         rolemaps-to="P"
+        >
+       <?MarkedContent page="2" ?>An example table.
+      </text>
+     </Caption>
+     <text-unit xmlns="https://www.latex-project.org/ns/dflt"
+        id="ID.0134"
+        rolemaps-to="Part"
+       >
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0135"
+         xmlns:Layout="http://iso.org/pdf/ssn/Layout"
+         Layout:TextAlign="Center"
+         rolemaps-to="P"
+        >
+      </text>
+      <Table xmlns="http://iso.org/pdf2/ssn"
+         id="ID.0136"
+        >
+       <TR xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0137"
+         >
+        <TH xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0138"
+           xmlns:Table="http://iso.org/pdf/ssn/Table"
+           Table:Scope="Column"
+          >
+         <?MarkedContent page="2" ?>Item
+        </TH>
+        <TH xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0139"
+           xmlns:Table="http://iso.org/pdf/ssn/Table"
+           Table:Scope="Column"
+          >
+         <?MarkedContent page="2" ?>Quantity
+        </TH>
+       </TR>
+       <TR xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0140"
+         >
+        <TD xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0141"
+          >
+         <?MarkedContent page="2" ?>Widgets
+        </TD>
+        <TD xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0142"
+          >
+         <?MarkedContent page="2" ?>42
+        </TD>
+       </TR>
+       <TR xmlns="http://iso.org/pdf2/ssn"
+          id="ID.0143"
+         >
+        <TD xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0144"
+          >
+         <?MarkedContent page="2" ?>Gadgets
+        </TD>
+        <TD xmlns="http://iso.org/pdf2/ssn"
+           id="ID.0145"
+          >
+         <?MarkedContent page="2" ?>13
+        </TD>
+       </TR>
+      </Table>
+      <text xmlns="https://www.latex-project.org/ns/dflt"
+         id="ID.0146"
+         rolemaps-to="P"
+        >
+      </text>
+     </text-unit>
+    </float>
+   </tables>
+  </Document>
+ </StructTreeRoot>
+</PDF>
