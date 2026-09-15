@@ -15,14 +15,17 @@ jobs:
         uses: actions/checkout@v4
 
       # ----------------------------------------------------------------
-      # STEP 1: Install Minimal Dependencies
+      # STEP 1: Install Minimal Dependencies & Fix kpathsea
       # ----------------------------------------------------------------
-      - name: Install Minimal TeX Environment
+      - name: Install TeX Live Binaries
         run: |
           sudo apt-get update
-          # Install base for kpathsea directory structures
-          # Install luatex to satisfy the script's 'set_program_name' requirement
-          sudo apt-get install -y texlive-base texlive-luatex
+          # Install the bare minimum binaries
+          sudo apt-get install -y texlive-binaries
+          
+          # TRICK KPATHSEA: The script hardcodes a search for 'lualatex'.
+          # We create a symlink in the system path so it finds it and stops crashing.
+          sudo ln -s /usr/bin/luatex /usr/local/bin/lualatex
 
       # ----------------------------------------------------------------
       # STEP 2: Fetch the Utility
@@ -38,8 +41,8 @@ jobs:
         run: |
           cd /tmp/pdf_structure/show-pdf-tags
           
-          # Use 'texlua' instead of 'luatex' to run it purely as a script
-          texlua show-pdf-tags.lua --xml "$GITHUB_WORKSPACE/output/main.pdf" > "$GITHUB_WORKSPACE/output/pdf-tags.xml"
+          # Run the standard command. The symlink we created prevents the crash.
+          luatex show-pdf-tags.lua --xml "$GITHUB_WORKSPACE/output/main.pdf" > "$GITHUB_WORKSPACE/output/pdf-tags.xml"
 
       # ----------------------------------------------------------------
       # STEP 4: Commit Artifact Back to Repo
